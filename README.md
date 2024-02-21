@@ -10,7 +10,7 @@ dataset["new_column_name"] = new_value format will be enough but all records wil
 
 Another important keywords are .loc and .iloc. We can use these to get subdatasets from main dataset by using column name or index values to specify these columns and rows. We can use .loc to create a new column that has different values based on a condition too.
 
-We use .fillna() method to change a column's null values with another values such as the values of this column's median(). We generally don't like null values, they might make our further analysis (especially in ML) difficult.
+We use .fillna() method to change a column's null values with another values such as the values of this column's median(). We generally don't like null values, they might make our further analyses (especially in ML) difficult.
 
-With .to_csv() method we can send our dataset from Jupyter/Python to Excel as a csv file. And also, we can use .sort_values() method to apply ascending/descending ordering a dataset based on some columns.  
+With .to_csv() method we can send our dataset from Jupyter/Python to Excel as a csv file. And also, we can use .sort_values() method to apply ascending/descending ordering on a dataset based on some columns' values.  
 

@@ -8,7 +8,7 @@ We can use .dtypes and info() to see dataset's columns' types and whether they h
 Creating a new column in a dataset is easy. 
 dataset["new_column_name"] = new_value format will be enough but all records will have the same value for that column. We can change this values by using loops, conditions etc
 
-Another important keyword are .loc and .iloc. We can use these to get subdateset from main dataset by using column name or index values for these columns. We can use .loc to create a new column that has different values based on a condition too.
+Another important keywords are .loc and .iloc. We can use these to get subdateset from main dataset by using column name or index values for these columns. We can use .loc to create a new column that has different values based on a condition too.
 
 We use .fillna() method to change a column's null values with a values such as this column's values' median(). We generally don't like null values, they might make our further analysis (especially in ML) difficult.
 

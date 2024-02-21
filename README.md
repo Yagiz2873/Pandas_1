@@ -3,7 +3,7 @@ I've continued my Python/Pandas journey by learning data preparation and EDA. I'
 
 A column may have different values. We might want to see how many values this column has. Especially for categorical columns. So, We can use value_counts() method to see or we can see value_counts() and .shape[0] altogether to see as percentage and I think we should separate numerical and categorical columns from each other that can be found altogether in df.columns
 
-We can use .dtypes and info() to see dataset's columns' types and whether they have null values. We use .read_csv() method to get dataset from excel that has a .csv extension. We should copy() method for avoid changing main dataset. That way, we may use the copy of the main dataset.
+We can use .dtypes and info() to see dataset's columns' types and whether they have null values. We use .read_csv() method to get dataset from excel that has a .csv extension. We should use .copy() method for avoid changing main dataset. That way, we may use the copy of the main dataset.
 
 Creating a new column in a dataset is easy. 
 dataset["new_column_name"] = new_value format will be enough but all records will have the same value for that column. We can change this values by using loops, conditions etc
